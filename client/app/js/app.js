@@ -4,7 +4,11 @@ app.config(function($stateProvider, $urlRouterProvider){
     
     $stateProvider
         .state('landing', {
-        url: '/',
+        url: '/landing',
         templateUrl: 'views/landing.html'
-    })
+        })
+        .state('routetest', {
+        url: 'routetest',
+        templateUrl: 'views/routetest.html'
+        })
 });
