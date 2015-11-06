@@ -5,7 +5,9 @@ app.config(function($stateProvider, $urlRouterProvider){
     $stateProvider
         .state('landing', {
         url: '/landing',
-        templateUrl: 'views/landing.html'
+        templateUrl: 'views/landing.html',
+        controller: 'LandingController',
+        controllerAs: 'LandingCtrl'
         })
         .state('routetest', {
         url: 'routetest',
